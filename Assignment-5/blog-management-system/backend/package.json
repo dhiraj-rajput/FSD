@@ -1,0 +1,13 @@
+{
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "description": "Blog Management System Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["blog", "express", "mongodb"],
+  "author": "Your Name",
+  "license": "ISC"
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Example</title>
+    <link rel="stylesheet" href="style2.css">
+    <!-- Include jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script2.js" defer></script>
+</head>
+<body>
+
+    <h1 id="mainHeading">Welcome to DOM Manipulation</h1>
+    
+    <p class="highlight">This is a paragraph with class 'highlight'.</p>
+    <p class="highlight">Another paragraph with the same class.</p>
+    <p>This paragraph will be accessed using getElementsByTagName.</p>
+    
+    <div id="container">
+        <img id="myImage" src="https://via.placeholder.com/200x150" alt="Placeholder Image">
+        <button id="changeImageBtn">Change Image</button>
+        <button id="changeTextBtn">Change Heading Text</button>
+        <button id="addTextNodeBtn">Add Text Node</button>
+        <button id="deleteNodeBtn">Delete Paragraph</button>
+    </div>
+
+    <form id="myForm">
+        <h3>Sample Form</h3>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <button type="button" id="submitForm">Submit Form</button>
+    </form>
+
+</body>
+</html>

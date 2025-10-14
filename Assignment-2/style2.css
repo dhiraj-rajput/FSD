@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.highlight {
+    font-weight: bold;
+}
+
+#myImage {
+    width: 200px;
+    height: 150px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 5px 0;
+}
+
+#container {
+    margin-top: 20px;
+    padding: 10px;
+}
