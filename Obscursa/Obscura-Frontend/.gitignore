@@ -1,0 +1,56 @@
+# Node dependencies
+node_modules/
+
+# Optional npm cache
+.npm/
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Environment files (sensitive)
+.env
+.env.*
+.env.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Caches and temp
+.cache/
+.parcel-cache/
+/.vite
+
+# Test coverage
+coverage/
+
+# TypeScript
+*.tsbuildinfo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Packaging
+*.tgz
+*.gz
+
+# Storybook
+storybook-static/
+
+# Keep lockfiles committed:
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
